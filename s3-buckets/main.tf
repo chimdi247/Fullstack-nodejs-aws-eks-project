@@ -1,14 +1,14 @@
 provider "aws" {
-  region = "us-east-1"
+  region = "eu-west-2"
 }
 
 resource "aws_s3_bucket" "bucket1" {
-  bucket = "booksec2"
+  bucket = "booksec2-chimdi"
   # Allow Terraform destroy to remove the bucket even when it contains objects/versions.
   force_destroy = true
 
   tags = {
-    Name        = "booksec2"
+    Name        = "booksec2-chimdi"
     Environment = "dev"
   }
 }
@@ -21,12 +21,12 @@ resource "aws_s3_bucket_versioning" "bucket1_versioning" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-  bucket = "bookseks"
+  bucket = "bookseks-chimdi"
   # Allow Terraform destroy to remove the bucket even when it contains objects/versions.
   force_destroy = true
 
   tags = {
-    Name        = "bookseks"
+    Name        = "bookseks-chimdi"
     Environment = "dev"
   }
 }
