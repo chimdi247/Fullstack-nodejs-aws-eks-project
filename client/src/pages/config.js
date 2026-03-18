@@ -1,6 +1,6 @@
 
 // // const API_BASE_URL = "http://localhost:8800";
-const API_BASE_URL = "https://backend.raph247.online";
+const API_BASE_URL = "http://backend.raph247.online";
 // export default API_BASE_URL;
 // const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://backend";
 // export default API_BASE_URL;
