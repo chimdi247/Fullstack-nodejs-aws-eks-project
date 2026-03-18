@@ -74,7 +74,7 @@ pipeline {
                             sed -i "s#image:.*#image: 283104167597.dkr.ecr.eu-west-2.amazonaws.com/frontend:$BUILD_NUMBER#g" frontend-deploy-service.yaml
 
                             # Stage file
-                            git add frontend-deploy-service.yaml
+                            git add .
 
                             # Commit (avoid failure if no changes)
                             git commit -m "Update deployment Image to version ${BUILD_NUMBER}" || echo "No changes to commit"
