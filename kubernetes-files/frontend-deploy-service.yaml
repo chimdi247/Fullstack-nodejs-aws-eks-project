@@ -21,7 +21,7 @@ spec:
         - containerPort: 80
         env:   # <-- Fixed indentation
         - name: REACT_APP_API_BASE_URL
-          value: "a638d711e42394c45ad589d8de6ce5d1-340873541.eu-west-2.elb.amazonaws.com"
+          value: "backend.raph247.online"
 
 ---
 apiVersion: v1
