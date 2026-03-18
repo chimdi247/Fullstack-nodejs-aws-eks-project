@@ -7,13 +7,13 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "booksec2"
+    bucket = "booksec2-chimdi"
     key    = "ec2/terraform.tfstate"
-    region = "us-east-1"
+    region = "eu-west-2"
   }
 
   required_version = ">= 1.6.3"
 }
 provider "aws" {
-  region = "us-east-1"
+  region = "eu-west-2"
 }
