@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "bookseks"
+    bucket = "bookseks-chimdi"
     key    = "k8/terraform.tfstate"
-    region = "us-east-1"
+    region = "eu-west-2"
   }
 
   required_version = ">= 1.6.3"
