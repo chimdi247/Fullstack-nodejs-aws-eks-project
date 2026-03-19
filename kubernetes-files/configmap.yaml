@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: db-config
 data:
-  DB_PORT: "3306"            # Port for PostgreSQL
-  DB_NAME: "test"  # Replace with your database name
+  DB_PORT: "3306"            # Port for MYSQL
+  DB_NAME: "test"  # Replace with your database name (AWS RDS)
