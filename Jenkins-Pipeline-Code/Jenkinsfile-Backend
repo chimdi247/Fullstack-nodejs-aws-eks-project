@@ -65,6 +65,11 @@ pipeline {
                         
                             # Set Git user name for committing
                             git config user.name "chimdi247"
+
+                            # Sync with remote (CRITICAL FIX)
+                            git fetch origin
+                            git reset --hard origin/master
+
                         
                             # Capture Jenkins build number into a shell variable
                             BUILD_NUMBER=${BUILD_NUMBER}
