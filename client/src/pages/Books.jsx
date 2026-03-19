@@ -439,13 +439,13 @@ const Books = () => {
       </section>
 
       <section className="contrib-banner">
-        <span>Contribute to Yash Academic Bookstore on GitHub.</span>
+        <span>Contribute to Yash Academic Bookstore on GitHub and Gitlab.</span>
         <a
           href="https://github.com/arumullayaswanth/Fullstack-nodejs-aws-eks-project.git"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Click here to access the repository and create a pull request
+          Click here to access the repository and create a pull request and push
         </a>
       </section>
 
