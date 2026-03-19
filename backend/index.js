@@ -33,7 +33,7 @@ pool.getConnection((err, conn) => {
   }
 });
 
-app.get("/", (_req, res) => res.json("hello"));
+app.get("/", (_req, res) => res.json("hello chimdi"));
 
 app.get("/health/db", (_req, res) => {
   pool.query("SELECT 1", (err) => {
